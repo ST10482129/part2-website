@@ -247,46 +247,86 @@ The website currently includes the following bakery products:
 
 ## Changelog
 
-### Version 1.0
+### Version 1.0 – Part 1: Project Foundation
 
-* Created project structure.
-* Created five HTML pages.
-* Added navigation.
-* Added bakery content.
-* Added product content.
-* Added product images.
-* Added bakery logo.
-* Created CSS stylesheet.
+* Created the initial Khula Community Bakery project structure.
+* Created five HTML pages: Home, About Us, Products, Enquiry and Contact.
+* Added consistent navigation between all website pages.
+* Added the bakery business information and website content.
+* Added product information and pricing.
+* Added the bakery logo and website images.
+* Created the initial website layout and page structure.
+* Created the initial `README.md` with project information, goals, sitemap and references.
 
-### Version 1.1
+### Version 1.1 – Part 2: CSS Styling and Responsive Design
 
-* Improved website layout and styling.
-* Added responsive design.
-* Added mobile hamburger navigation.
-* Added JavaScript menu functionality.
+#### Changes Based on Part 1 Feedback
+
+* Reviewed the Part 1 website structure and made improvements to the existing website.
+* Improved the consistency of the navigation and page layout across all five HTML pages.
+* Updated the website structure to support a more organised and visually consistent design.
+* Improved the readability and presentation of website content.
+
+#### CSS Styling Improvements
+
+* Created and implemented an external `css/style.css` stylesheet.
+* Linked the external stylesheet to all five HTML pages.
+* Added a CSS reset and common base styles.
+* Added a consistent colour scheme using brown, cream, white and gold colours.
+* Added typography styles for headings, paragraphs, navigation links and buttons.
+* Improved spacing, margins, padding and overall page readability.
+* Used Flexbox and CSS Grid to structure website sections and product layouts.
+* Added borders, rounded corners and shadows to improve the visual presentation.
+* Added hover and focus effects to interactive elements such as navigation links and buttons.
+
+#### Responsive Design Improvements
+
+* Added responsive CSS media queries for different screen sizes.
+* Added desktop, tablet and mobile breakpoints.
+* Adjusted page layouts for smaller screens.
+* Changed multi-column layouts to single-column layouts on mobile devices.
+* Adjusted font sizes and spacing for smaller screens.
+* Improved the responsiveness of images so that they fit different screen sizes.
+* Added a responsive mobile navigation menu.
+* Added a hamburger menu button for mobile users.
+* Added JavaScript functionality to open and close the mobile navigation menu.
+* Changed the hamburger icon from `☰` to `✕` when the menu is opened.
+
+#### JavaScript Improvements
+
+* Added JavaScript functionality for the mobile navigation menu.
 * Added enquiry form validation.
 * Added contact form validation.
-* Added form confirmation messages.
-* Improved navigation accessibility.
-* Added wireframe planning section.
-* Improved consistency across all website pages.
+* Added validation for required fields.
+* Added email format validation.
+* Added confirmation messages after successful form submissions.
+* Added functionality to display the current year in the footer.
+* Improved the JavaScript structure so that functionality is only applied when the relevant page elements are available.
 
----
+#### Documentation Improvements
 
-## Testing
+* Updated the README to include Part 2 development information.
+* Added a more detailed changelog to document development changes.
+* Added a website design and wireframe section.
+* Added a project structure section.
+* Added responsive design information.
+* Added JavaScript functionality information.
+* Updated the references section.
+* Added a section for responsive design testing and screenshots.
 
-The website should be tested on different screen sizes to ensure that:
+### Version 1.2 – Testing and Refinement
 
-* All navigation links work correctly.
-* The hamburger menu opens and closes correctly on mobile.
-* Forms display validation messages.
-* Required fields cannot be submitted empty.
-* Email fields accept valid email formats.
-* Images display correctly.
-* The website layout responds correctly to different screen sizes.
-* All pages have consistent navigation and footer sections.
+* Tested the website layout on desktop screen sizes.
+* Tested the website layout on tablet screen sizes.
+* Tested the website layout on mobile screen sizes.
+* Tested the mobile hamburger navigation.
+* Tested navigation links between all five pages.
+* Tested the enquiry form validation.
+* Tested the contact form validation.
+* Checked image sizing and responsiveness.
+* Checked spacing, alignment and typography across the pages.
+* Made final CSS and layout adjustments based on testing.
 
----
 
 ## References
 
